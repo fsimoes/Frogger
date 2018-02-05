@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{DB6C39B9-871F-43F8-85FA-1832228ACAF2}</ProjectGuid>
+    <RootNamespace>Frogger</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\LibrariesC++\SDL2_mixer-devel-2.0.2-VC\SDL2_mixer-2.0.2\include;C:\LibrariesC++\SDL2_ttf-devel-2.0.14-VC\SDL2_ttf-2.0.14\include;C:\LibrariesC++\SDL2-devel-2.0.7-VC\SDL2-2.0.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\LibrariesC++\SDL2_mixer-devel-2.0.2-VC\SDL2_mixer-2.0.2\lib\x86;C:\LibrariesC++\SDL2_ttf-devel-2.0.14-VC\SDL2_ttf-2.0.14\lib\x86;C:\LibrariesC++\SDL2-devel-2.0.7-VC\SDL2-2.0.7\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\LibrariesC++\SDL2_mixer-devel-2.0.2-VC\SDL2_mixer-2.0.2\include;C:\LibrariesC++\SDL2_ttf-devel-2.0.14-VC\SDL2_ttf-2.0.14\include;C:\LibrariesC++\SDL2-devel-2.0.7-VC\SDL2-2.0.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\LibrariesC++\SDL2_mixer-devel-2.0.2-VC\SDL2_mixer-2.0.2\lib\x64;C:\LibrariesC++\SDL2_ttf-devel-2.0.14-VC\SDL2_ttf-2.0.14\lib\x64;C:\LibrariesC++\SDL2-devel-2.0.7-VC\SDL2-2.0.7\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\CApp.h" />
+    <ClInclude Include="headers\CEnemy.h" />
+    <ClInclude Include="headers\CGameObject.h" />
+    <ClInclude Include="headers\CMap.h" />
+    <ClInclude Include="headers\CPlatform.h" />
+    <ClInclude Include="headers\CPlayer.h" />
+    <ClInclude Include="headers\CSpriteSheet.h" />
+    <ClInclude Include="headers\mywindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="sprites\arrow.bmp" />
+    <Image Include="sprites\background.bmp" />
+    <Image Include="sprites\baseLayer.bmp" />
+    <Image Include="sprites\basePlatfomr.bmp" />
+    <Image Include="sprites\basePlatfomr.png" />
+    <Image Include="sprites\bridge.bmp" />
+    <Image Include="sprites\cave.bmp" />
+    <Image Include="sprites\cosmeticLayer.bmp" />
+    <Image Include="sprites\gameover.bmp" />
+    <Image Include="sprites\heart.bmp" />
+    <Image Include="sprites\Intro - Copy.bmp" />
+    <Image Include="sprites\Intro.bmp" />
+    <Image Include="sprites\maop.bmp" />
+    <Image Include="sprites\maop.png" />
+    <Image Include="sprites\map.bmp" />
+    <Image Include="sprites\map.png" />
+    <Image Include="sprites\mdoel.bmp" />
+    <Image Include="sprites\movingPlatform.bmp" />
+    <Image Include="sprites\noBrigde.bmp" />
+    <Image Include="sprites\platform.bmp" />
+    <Image Include="sprites\platform.png" />
+    <Image Include="sprites\player.bmp" />
+    <Image Include="sprites\PLAYER.gif" />
+    <Image Include="sprites\player.png" />
+    <Image Include="sprites\title.bmp" />
+    <Image Include="sprites\Untitled.png" />
+    <Image Include="sprites\win.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="sprites\zeldadxt.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\arrow.wav" />
+    <Media Include="sounds\background.wav" />
+    <Media Include="sounds\gameOver.wav" />
+    <Media Include="sounds\hurt.wav" />
+    <Media Include="sounds\jump.wav" />
+    <Media Include="sounds\level.wav" />
+    <Media Include="sounds\win.wav" />
+    <Media Include="sounds\_background.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CApp.cpp" />
+    <ClCompile Include="src\CApp_OnCleanup.cpp" />
+    <ClCompile Include="src\CApp_OnEvent.cpp" />
+    <ClCompile Include="src\CApp_OnInit.cpp" />
+    <ClCompile Include="src\CApp_OnLoop.cpp" />
+    <ClCompile Include="src\CApp_OnRender.cpp" />
+    <ClCompile Include="src\CEnemy.cpp" />
+    <ClCompile Include="src\CGameObject.cpp" />
+    <ClCompile Include="src\CMap.cpp" />
+    <ClCompile Include="src\CPlatform.cpp" />
+    <ClCompile Include="src\CPlayer.cpp" />
+    <ClCompile Include="src\CSpriteSheet.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,529 @@
+# depslib dependency file v1.0
+1486752651 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\capp.cpp
+	"CApp.h"
+
+1486752651 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\capp.h
+	<SDL.h>
+	"mywindow.h"
+	"CPlayer.h"
+	"CScroll_Player.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1404995718 c:\devpaks\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\begin_code.h
+
+1394937198 c:\devpaks\include\sdl2\close_code.h
+
+1394937196 c:\devpaks\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\devpaks\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1486752652 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\mywindow.h
+
+1486752716 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\cplayer.h
+	<stdio.h>
+	<string.h>
+	<SDL.h>
+	"mywindow.h"
+
+1486752652 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\cscroll_player.h
+	"CPlayer.h"
+
+1486752651 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\capp_oncleanup.cpp
+	"CApp.h"
+
+1486752651 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\capp_onevent.cpp
+	"CApp.h"
+
+1486752651 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\capp_oninit.cpp
+	"CApp.h"
+	<stdlib.h>
+	<time.h>
+
+1486752651 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\capp_onloop.cpp
+	"CApp.h"
+
+1486752652 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\capp_onrender.cpp
+	"CApp.h"
+
+1486752652 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\cplayer.cpp
+	"CPlayer.h"
+
+1486753069 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\cscroll_player.cpp
+	"CScroll_Player.h"
+
+1489163570 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\capp.cpp
+	"../headers/CApp.h"
+
+1489162813 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\headers\capp.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"mywindow.h"
+	"CPlayer.h"
+	"CEnemy.h"
+	"CSpriteSheet.h"
+	"CMap.h"
+
+1487868839 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\headers\mywindow.h
+
+1487869909 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\headers\cplayer.h
+	"CSpriteSheet.h"
+
+1487357474 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\headers\cscroll_player.h
+	"CPlayer.h"
+
+1489161639 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\capp_oncleanup.cpp
+	"../headers/CApp.h"
+
+1489163722 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\capp_onevent.cpp
+	"../headers/CApp.h"
+
+1489163913 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\capp_oninit.cpp
+	"../headers/CApp.h"
+	<stdlib.h>
+	<time.h>
+
+1489163432 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\capp_onloop.cpp
+	"../headers/CApp.h"
+
+1487010096 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\capp_onrender.cpp
+	"../headers/CApp.h"
+
+1489162106 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\cplayer.cpp
+	"../headers/CPlayer.h"
+
+1487704135 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\cscroll_player.cpp
+	"../headers/CScroll_Player.h"
+
+1487702327 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\headers\enemy.h
+	"CPlayer.h"
+
+1487702168 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\enemy.cpp
+	"../headers/Enemy.h"
+
+1489162214 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\cenemy.cpp
+	"../headers/CEnemy.h"
+
+1487869905 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\headers\cenemy.h
+	"CSpriteSheet.h"
+
+1487970832 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\headers\cspritesheet.h
+	<SDL.h>
+	<string.h>
+	"CGameObject.h"
+
+1487970853 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\cspritesheet.cpp
+	"../headers/CSpriteSheet.h"
+	<stdio.h>
+
+1487870131 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\headers\cmap.h
+	"CSpriteSheet.h"
+
+1487870664 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\cmap.cpp
+	"../headers/CMap.h"
+
+1489161624 z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\headers\cgameobject.h
+	<stdio.h>
+	<string.h>
+	<SDL.h>
+	<SDL_mixer.h>
+	"mywindow.h"
+	<stdlib.h>
+	<time.h>
+
+1489159234 source:z:\2ndterm\game202 - labs\lab4-felipesimoes\lab4-part4\src\cgameobject.cpp
+	"../headers/CGameObject.h"
+
+1369965256 c:\devpaks\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1369969100 c:\devpaks\include\sdl2\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937198 c:\devpaks\include\sdl2\sdl_types.h
+	"SDL_stdinc.h"
+
+1489165239 source:z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\src\capp_oncleanup.cpp
+	"../headers/CApp.h"
+
+1489596360 z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\headers\capp.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"mywindow.h"
+	"CPlayer.h"
+	"CEnemy.h"
+	"CSpriteSheet.h"
+	"CMap.h"
+
+1489597137 z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\headers\mywindow.h
+
+1487873509 z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\headers\cplayer.h
+	"CSpriteSheet.h"
+
+1487974432 z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\headers\cspritesheet.h
+	<SDL.h>
+	<string.h>
+	"CGameObject.h"
+
+1489165224 z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\headers\cgameobject.h
+	<stdio.h>
+	<string.h>
+	<SDL.h>
+	<SDL_mixer.h>
+	"mywindow.h"
+	<stdlib.h>
+	<time.h>
+
+1487873505 z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\headers\cenemy.h
+	"CSpriteSheet.h"
+
+1487873731 z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\headers\cmap.h
+	"CSpriteSheet.h"
+
+1489167322 source:z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\src\capp_onevent.cpp
+	"../headers/CApp.h"
+
+1489162834 source:z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\src\cgameobject.cpp
+	"../headers/CGameObject.h"
+
+1487974453 source:z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\src\cspritesheet.cpp
+	"../headers/CSpriteSheet.h"
+	<stdio.h>
+
+1489595865 source:z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\src\capp.cpp
+	"../headers/CApp.h"
+
+1489597105 source:z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\src\capp_oninit.cpp
+	"../headers/CApp.h"
+	<stdlib.h>
+	<time.h>
+
+1489597123 source:z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\src\capp_onloop.cpp
+	"../headers/CApp.h"
+
+1489596056 source:z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\src\capp_onrender.cpp
+	"../headers/CApp.h"
+
+1489596079 source:z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\src\cenemy.cpp
+	"../headers/CEnemy.h"
+
+1489168624 source:z:\2ndterm\game202 - labs\lab5-felipesimoes\lab4-part4\src\cplayer.cpp
+	"../headers/CPlayer.h"
+

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\CApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\CEnemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\CGameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\CMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\CPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\CPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\CSpriteSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\mywindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="sprites\arrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\baseLayer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\basePlatfomr.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\basePlatfomr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\bridge.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\cave.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\cosmeticLayer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\gameover.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\heart.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\Intro - Copy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\Intro.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\maop.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\maop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\map.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\map.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\mdoel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\movingPlatform.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\noBrigde.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\platform.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\platform.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\player.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\PLAYER.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\player.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\title.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\Untitled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprites\win.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="sprites\zeldadxt.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\_background.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\arrow.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\background.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\gameOver.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\hurt.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\jump.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\level.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\win.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CApp_OnCleanup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CApp_OnEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CApp_OnInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CApp_OnLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CApp_OnRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CEnemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CGameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CPlatform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CSpriteSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
