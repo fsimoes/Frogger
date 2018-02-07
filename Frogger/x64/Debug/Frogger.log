@@ -1,2 +1,3 @@
-﻿     Creating library D:\Programacao\My Projects\Frogger\Frogger\x64\Debug\Frogger.lib and object D:\Programacao\My Projects\Frogger\Frogger\x64\Debug\Frogger.exp
+﻿  CApp.cpp
+d:\programacao\my projects\frogger\frogger\headers\cgameobject.h(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Frogger.vcxproj -> D:\Programacao\My Projects\Frogger\Frogger\x64\Debug\Frogger.exe
