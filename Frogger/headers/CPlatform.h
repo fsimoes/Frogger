@@ -5,7 +5,7 @@
 #include "CSpriteSheet.h"
 
 
-class Platform : public CSpriteSheet
+class Platform : public CGameObject
 {
     public:
 

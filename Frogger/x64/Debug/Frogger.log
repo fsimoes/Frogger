@@ -1,3 +1,21 @@
 ﻿  CApp.cpp
 d:\programacao\my projects\frogger\frogger\headers\cgameobject.h(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Compiling...
+  CEnemy.cpp
+d:\programacao\my projects\frogger\frogger\headers\cgameobject.h(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CApp_OnRender.cpp
+d:\programacao\my projects\frogger\frogger\headers\cgameobject.h(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CApp_OnLoop.cpp
+d:\programacao\my projects\frogger\frogger\headers\cgameobject.h(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CApp_OnInit.cpp
+d:\programacao\my projects\frogger\frogger\headers\cgameobject.h(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\programacao\my projects\frogger\frogger\src\capp_oninit.cpp(60): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\programacao\my projects\frogger\frogger\src\capp_oninit.cpp(9): warning C4101: 'i': unreferenced local variable
+  CApp_OnEvent.cpp
+d:\programacao\my projects\frogger\frogger\headers\cgameobject.h(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CApp_OnCleanup.cpp
+d:\programacao\my projects\frogger\frogger\headers\cgameobject.h(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+     Creating library D:\Programacao\My Projects\Frogger\Frogger\x64\Debug\Frogger.lib and object D:\Programacao\My Projects\Frogger\Frogger\x64\Debug\Frogger.exp
   Frogger.vcxproj -> D:\Programacao\My Projects\Frogger\Frogger\x64\Debug\Frogger.exe

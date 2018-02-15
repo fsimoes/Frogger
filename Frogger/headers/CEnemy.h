@@ -5,7 +5,7 @@
 #include "CSpriteSheet.h"
 
 
-class Enemy : public CSpriteSheet
+class Enemy : public CGameObject
 {
     public:
         Enemy();

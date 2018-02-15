@@ -4,7 +4,7 @@
 #include "CSpriteSheet.h"
 
 
-class CMap : public CSpriteSheet
+class CMap : public CGameObject
 {
     public:
         CMap();
